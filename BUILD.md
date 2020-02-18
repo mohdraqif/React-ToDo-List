@@ -2,13 +2,16 @@
 Make the basic frontend of the todo list
 
 <!-- Step 2 -->
-Initialize the state of App component
+Connect all the components and initialize the {state} of App component
 
 <!-- Step 3 -->
 Handle the Event-handlers with props
 
 <!-- Step 4 -->
-Render the tasks through setState() in App
+Render the tasks through setState() in App component with help of {submitHandler} handler
 
 <!-- Step 5 -->
-Enjoy. Happy Coding!!
+Manage the {editHandler} to edit/change the description of the existing item
+
+<!-- Step 6 -->
+Deploy and enjoy. Happy Coding!!

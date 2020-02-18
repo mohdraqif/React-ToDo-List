@@ -27,14 +27,13 @@ export default class App extends Component {
       item: '',
       id: uuid(),
       editItem: false
-    }, () => {console.log(this.state)})
+    })
   }
   
   editHandler = (id) => {
     const filteredItems = this.state.items.filter(item => item.id !== id);
     const selectedItem = this.state.items.find(item => item.id === id);
-    console.log(selectedItem)
-    
+        
     this.setState({
       items: filteredItems,
       item: selectedItem.item,
